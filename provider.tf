@@ -11,7 +11,7 @@ terraform {
   required_version = ">= 0.14.0"
 
   backend "s3" {
-    bucket = "ase-terraform-state-bucket"
+    bucket = "0c264ceb-9d63-4b0a-b172-afd2e9e45962-tfstate"
     key    = "terraform.tfstate"
     region = "us-west-2"
   }
